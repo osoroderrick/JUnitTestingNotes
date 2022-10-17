@@ -20,4 +20,5 @@
 >A lambda expression is a short block of code which takes in parameters and returns a value. Lambda expressions are similar to methods, but they do not need a name and they can be implemented right in the body of the method.
 >After and asserrtEquals you can add a message that describes what a failure means in more detail
 >@Disable temporarily stops a test from running instead of having to comment it out
->The Single priniciple is the idea that a unit of code should do one thing is realted to code cohesion that the functioncs of some unit of code are closeley related to one another and also the idea of serparion of concerns , a given unit of code should only haave one reason to change
+>The Single priniciple is the idea that a unit of code should do one thing is realted to code cohesion that the functioncs of some unit of code are closeley related to one another and also the idea of seperation of concerns , a given unit of code should only haave one reason to change
+>
