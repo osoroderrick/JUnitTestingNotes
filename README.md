@@ -21,4 +21,13 @@
 >After and asserrtEquals you can add a message that describes what a failure means in more detail
 >@Disable temporarily stops a test from running instead of having to comment it out
 >The Single priniciple is the idea that a unit of code should do one thing is realted to code cohesion that the functioncs of some unit of code are closeley related to one another and also the idea of seperation of concerns , a given unit of code should only haave one reason to change
->
+> A challenge of unit ytesting exising code is dependencies
+>Code rarely works in isolation - code calls other code
+>Such dependencides may be application code ot library code
+>Testing code that calls other code can be difficult because of side effects, talks to remote sevices taht are not always present, inconsistent behavior
+>A common way of handling this problem is to provide a double of the dependency to the code we're trying to test. 
+> The unit test creates the test double and provides it to the target code rather than the taarget code creating the dependency itself.
+>The test double doesn't have the harmful side effects or external depencies of the real dependecy
+>Test-driven development is a software development process relying on software requirements being converted to test cases before software is fully developed, and tracking all software development by repeatedly testing the software against all test cases.
+>Benefits of TDD are keeps you focused, prodeces testable designs, helps produce code with clear  interfaces, helps produce clean code.
+For TTD first write just enough test code to fail, then write just enough production code fot the test codee to pass nothing more.
